@@ -5,6 +5,7 @@ import Sidebar from '../../components/sidebar/Sidebar'
 import { Box } from '@mui/material'
 import './home.scss'
 import Left from '../../components/left/Left'
+import Middle from '../../components/middle/Middle'
 
 function Home(){
     return(
@@ -13,10 +14,11 @@ function Home(){
             <div className='home-cont'>
                 <div className='home-wrapper'>
                     <Left />
+                    <Middle />
+                    <Box className='sidebar-box'>
+                        <Sidebar  />
+                    </Box>
                 </div>
-                <Box className='sidebar-box'>
-                    <Sidebar  />
-                </Box>
             </div>
             
         </div>

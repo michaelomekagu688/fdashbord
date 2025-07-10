@@ -2,16 +2,16 @@
 .home{
 
     .home-cont{
-        display: flex;
 
         .sidebar-box{
             margin-left: auto;
+            flex: 1;
 
         }
 
         .home-wrapper{
             font-weight: 700;
-
+            display: flex;
         }
     }
 }
