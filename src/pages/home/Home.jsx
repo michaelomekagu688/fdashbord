@@ -14,7 +14,10 @@ function Home(){
             <div className='home-cont'>
                 <div className='home-wrapper'>
                     <Left />
-                    <Middle />
+                    <Box className='middle-box'>
+                        <Middle />
+                        <div></div>
+                    </Box>
                     <Box className='sidebar-box'>
                         <Sidebar  />
                     </Box>
