@@ -70,11 +70,8 @@ const TopCard = () => {
                             <span> {values.price} </span>
                         </div>
                     )
-
                 }
                 )}
-               
-
             </div>
         </div>
     )
